@@ -15,5 +15,4 @@ windows7旗舰安装版非GHOST 安装方法：
 1 -- Legacy安装
 将电脑的启动方式变成legacy，同时在相同的bios页面上关闭secure boot选项。用DiskGenius删除所有分区，然后将分区表转为MBR，然后重建MBR。然后分130GB给windows系统，然后用PE系统安装将install.wim恢复到C盘。
 
-2 -- UEFI安装
-将电脑的启动方式变成UEFI，同时在相同的bios页面上关闭secure boot选项。用DiskGenius删除所有分区，格式化的时候，选择建立ESP，
+2 -- UEFI不work
