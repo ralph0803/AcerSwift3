@@ -23,5 +23,5 @@ windows7旗舰安装版非GHOST 安装方法：
 要安装Microsoft C++ Runtime 2017，但64位的有问题，出现0x80004005错误。参见https://developercommunity.visualstudio.com/content/problem/29057/0x80004005.html 后，安装https://github.com/dotnet/core/blob/master/release-notes/download-archives/1.1.1-download.md 。重启之后可以运行。但还是无法正常使用，原因是显卡的问题。
 
 显卡问题（导致smplayer卡顿，和UBS无法运行）
-显卡是Intel UHD Graphics 620，只支持第8代Intel CPU和win 10。先下载在8代CPU下的Intel Graphic驱动（只支持win10）(称为Dr1),然后下载5/30/2017版的Intel Graphic驱动（支持win7,8,10的）(称为Dr2)。按照https://www.youtube.com/watch?v=7w9JofZQkxI 的提示，查看Swift 3上面的显卡型号（5917）。将Dr1里面igdlh64.inf中5917相关的所有代码（结合youtube视频上插入的位置，包括三段代码和两个dll文件，都要拷贝到Dr2的目录里面去，然后就可以运行setup.exe了。安装完成后，显卡的名字是一串代码，不影响使用。
+显卡是Intel UHD Graphics 620，只支持第8代Intel CPU和win 10。先下载在8代CPU下的Intel Graphic驱动（只支持win10）(称为Dr1),然后下载5/30/2017版的Intel Graphic驱动（支持win7,8,10的）(称为Dr2)。按照https://www.youtube.com/watch?v=7w9JofZQkxI 的提示，查看Swift 3上面的显卡型号（5917）。将Dr1里面igdlh64.inf中5917相关的所有代码（结合youtube视频上插入的位置，包括三段代码和两个dll文件，都要拷贝到Dr2的igdlh64.inf和目录里面去，然后就可以运行setup.exe了。安装完成后，显卡的名字是一串代码，不影响使用。
 
